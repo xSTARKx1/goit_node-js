@@ -1,0 +1,20 @@
+{
+  "name": "goit_node",
+  "version": "0.0.1",
+  "description": "node homeworks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xSTARKx1/goit_node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xSTARKx1/goit_node-js/issues"
+  },
+  "homepage": "https://github.com/xSTARKx1/goit_node-js#readme"
+}
