@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/xSTARKx1/goit_node-js/issues"
   },
-  "homepage": "https://github.com/xSTARKx1/goit_node-js#readme"
+  "homepage": "https://github.com/xSTARKx1/goit_node-js#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "yargs": "^16.0.1"
+  }
 }
