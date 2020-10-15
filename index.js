@@ -3,6 +3,7 @@ dotenv.config();
 const express = require("express");
 const cors = require("cors");
 const contactsRouter = require("./contacts/router");
+const userRouter = require("./users/router");
 const mongoose = require("mongoose");
 
 const runServer = async () => {
@@ -21,6 +22,8 @@ const runServer = async () => {
   app.use(cors());
 
   app.use("/api/contacts", contactsRouter);
+
+  app.use("/auth", userRouter);
 
   app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 };
